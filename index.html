@@ -1,14 +1,194 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Розумні дані з Cursor AI</title>
-  <meta name="description" content="Презентація про використання штучного інтелекту в розробці з Cursor AI">
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Розумні дані з Cursor AI - Головна</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 800px;
+            padding: 2rem;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .subtitle {
+            font-size: 1.5rem;
+            margin-bottom: 3rem;
+            opacity: 0.9;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 2rem 0;
+        }
+
+        .btn {
+            background: rgba(255,255,255,0.2);
+            border: 2px solid rgba(255,255,255,0.3);
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 25px;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+
+        .btn:hover {
+            background: rgba(255,255,255,0.3);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .btn-primary {
+            background: rgba(255,215,0,0.3);
+            border-color: rgba(255,215,0,0.5);
+        }
+
+        .btn-primary:hover {
+            background: rgba(255,215,0,0.5);
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+
+        .feature {
+            background: rgba(255,255,255,0.1);
+            padding: 2rem;
+            border-radius: 15px;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .feature h3 {
+            color: #87ceeb;
+            margin-bottom: 1rem;
+        }
+
+        .info {
+            background: rgba(0,0,0,0.2);
+            padding: 2rem;
+            border-radius: 15px;
+            margin: 2rem 0;
+        }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem; }
+            .subtitle { font-size: 1.2rem; }
+            .buttons { flex-direction: column; align-items: center; }
+            .btn { width: 100%; max-width: 300px; }
+        }
+    </style>
 </head>
 <body>
-  <div id="app"></div>
-  <script type="module" src="/src/main.ts"></script>
+    <div class="container">
+        <h1>🚀 Розумні дані з Cursor AI</h1>
+        <p class="subtitle">Сучасні підходи до розробки з використанням штучного інтелекту</p>
+        
+        <div class="buttons">
+            <a href="/presentation.html" class="btn btn-primary">📊 Переглянути презентацію</a>
+            <a href="/test_presentation.html" class="btn">🧪 Запустити тести</a>
+            <a href="/slides.md" class="btn">📄 Slidev версія</a>
+        </div>
+
+        <div class="features">
+            <div class="feature">
+                <h3>🎯 Основні можливості</h3>
+                <ul style="text-align: left; line-height: 1.8;">
+                    <li>Автодоповнення коду</li>
+                    <li>Рефакторинг</li>
+                    <li>Генерація компонентів</li>
+                    <li>Аналіз помилок</li>
+                </ul>
+            </div>
+            
+            <div class="feature">
+                <h3>📈 Переваги</h3>
+                <ul style="text-align: left; line-height: 1.8;">
+                    <li>Збільшення швидкості в 3x</li>
+                    <li>Покращення якості коду</li>
+                    <li>Інтеграція з IDE</li>
+                    <li>Адаптація до стилю</li>
+                </ul>
+            </div>
+            
+            <div class="feature">
+                <h3>🔮 Майбутнє</h3>
+                <ul style="text-align: left; line-height: 1.8;">
+                    <li>Автоматизація рутини</li>
+                    <li>Спеціалізація AI</li>
+                    <li>Глибша інтеграція</li>
+                    <li>Колаборація з командою</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="info">
+            <h3>📊 Статистика</h3>
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 1rem;">
+                <div>
+                    <div style="font-size: 2rem; font-weight: bold; color: #ffd700;">85%</div>
+                    <div>Розробників використовують AI</div>
+                </div>
+                <div>
+                    <div style="font-size: 2rem; font-weight: bold; color: #90ee90;">3x</div>
+                    <div>Збільшення швидкості</div>
+                </div>
+                <div>
+                    <div style="font-size: 2rem; font-weight: bold; color: #87ceeb;">90%</div>
+                    <div>Задоволені результатом</div>
+                </div>
+            </div>
+        </div>
+
+        <div style="margin-top: 3rem; opacity: 0.8;">
+            <p>Презентація створена з використанням Slidev та сучасних веб-технологій</p>
+            <p style="margin-top: 0.5rem;">Версія 1.0.0 | 2025</p>
+        </div>
+    </div>
+
+    <script>
+        // Простий скрипт для анімації
+        document.addEventListener('DOMContentLoaded', function() {
+            const features = document.querySelectorAll('.feature');
+            features.forEach((feature, index) => {
+                feature.style.opacity = '0';
+                feature.style.transform = 'translateY(20px)';
+                setTimeout(() => {
+                    feature.style.transition = 'all 0.6s ease';
+                    feature.style.opacity = '1';
+                    feature.style.transform = 'translateY(0)';
+                }, index * 200);
+            });
+        });
+    </script>
 </body>
 </html>
