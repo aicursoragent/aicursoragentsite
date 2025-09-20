@@ -1,0 +1,19 @@
+{
+  "name": "cursor-ai-presentation",
+  "version": "1.0.0",
+  "description": "Презентація про розумні дані з Cursor AI",
+  "main": "index.js",
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build",
+    "export": "slidev export",
+    "preview": "vite preview"
+  },
+  "keywords": ["slidev", "presentation", "cursor", "ai"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@slidev/cli": "^0.49.0",
+    "@slidev/theme-default": "^0.24.0"
+  }
+}
