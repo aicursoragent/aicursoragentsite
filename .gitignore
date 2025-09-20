@@ -9,6 +9,12 @@ dist/
 build/
 .slidev/
 
+# Slidev specific (виключаємо для продакшену)
+slides.md
+slidev.config.ts
+vite.config.ts
+tsconfig*.json
+
 # Environment variables
 .env
 .env.local

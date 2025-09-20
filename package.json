@@ -6,23 +6,17 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "node src/index.js",
-    "build": "echo 'Build completed'",
-    "slidev:dev": "slidev",
-    "slidev:build": "slidev build",
-    "slidev:export": "slidev export",
-    "preview": "vite preview"
+    "build": "echo 'Build completed - static files ready'",
+    "install": "echo 'Installing dependencies...' && npm install express"
   },
-  "keywords": ["slidev", "presentation", "cursor", "ai", "express"],
+  "keywords": ["presentation", "cursor", "ai", "express", "static"],
   "author": "",
   "license": "MIT",
   "dependencies": {
     "express": "^4.18.2"
   },
-  "devDependencies": {
-    "@slidev/cli": "^0.49.0",
-    "@slidev/theme-default": "^0.24.0"
-  },
   "engines": {
     "node": ">=18.0.0"
-  }
+  },
+  "private": true
 }
