@@ -2,10 +2,10 @@
   "name": "cursor-ai-presentation",
   "version": "1.0.0",
   "description": "Презентація про розумні дані з Cursor AI",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "node src/index.js",
+    "start": "node index.js",
+    "dev": "node index.js",
     "build": "echo 'Build completed - static files ready'",
     "install": "echo 'Installing dependencies...' && npm install express"
   },
